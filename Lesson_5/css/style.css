@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	background-color: coral;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header__title {
+	font-size: 45px;
+	text-align: center;
+	margin-top: 20px;
+}
+.title {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+}
+.header__content {
+	background-color: silver;
+}
+.header__text {
+	text-align: center;
+	margin-top: 15px;
+}
+.text {
+	margin: 15px 100px 0px 100px;
+	font-size: 20px;
+	padding: 30px 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.bold {
+	font-weight: 400;
+}
+.header__list {
+	width: 300px;
+	margin: 25px 1000px 0px 50px;
+	padding-bottom: 100px;
+	
+}
+.header__img {
+	text-align: end;
+	margin-top: -450px;	
+}
+.standart-comics__img {
+	text-align: center;
+}
+.list {
+	margin: 25px 100px 25px 100px;
+	min-width: 200px;
+	background-color: black;
+	color: white;
+	border: 10px solid crimson;
+}
+.list1__padding {
+	padding-left: 15px;
+}
+
+.list2__padding {
+	padding: 0px 0px 0px 30px;
+}
+.othernames {
+	background-color: slateblue;
+}
+.othernames__title {
+}
+.othernames__content {
+}
+.othernames__text {
+}
+.definition {
+}
+.definition__title {
+}
+.definition__content {
+}
+.definition__text {
+}
+.standart-comics {
+}
+.standart-comics__title {
+}
+.standart-comics__content {
+}
+.standart-comics__list {
+}
+.occurrence {
+}
+.occurrence__title {
+}
+.stories-in-pictures {
+	background-color: darkgoldenrod;
+
+}
+.stories-in-pictures__title {
+}
+.stories-in-pictures__content {
+}
+.stories-in-pictures__text {
+}
+
+.comics-usa {
+}
+.usa {
+}
+.usa__title {
+}
+.usa__content {
+}
+.usa__text {
+	max-height: 20px;
+	max-width: 50%;
+	overflow: visible;
+}
+.golden-age {
+	background-color: gold;
+	padding: 100px;
+	box-sizing: content-box;
+}
+.golden-age__title {
+}
+.golden-age__content {
+}
+.golden-age__text {
+}
+
+.silver-age {
+	background-color: silver;
+	padding: 100px;
+	box-sizing: border-box;
+}
+.silver-age__title {
+}
+.silver-age__content {
+}
+.silver-age__text {
+	
+}
+.bronze-age {
+	background-color: brown;
+	padding: 100px;
+}
+.bronze-age__title {
+}
+.bronze-age__content {
+}
+.bronze-age__text {
+}
+.modern-age {
+	background-color: blue;
+}
+.modern-age__title {
+}
+.madern-age__content {
+}
+.modern-age__text {
+}
+.industry-development {
+}
+.industry-development__title {
+}
+.industry-development__content {
+}
+.industry-development__list {
+}
+.comics-eu {
+}
+.comics-eu__title {
+}
+.comics-eu__content {
+}
+.comics-eu__text {
+	overflow: hidden;
+	border: 10px solid #000;
+	background-color: crimson;
+	min-width: 200px;
+}
+.comics-asia {
+	background-color: pink;
+	margin: 50px 100px;
+	padding: 30px 50px;
+}
+.comics-asia__title {
+}
+.comics-asia__content {
+}
+.comics-asia__text {
+}
+.comics-asia__img {
+	text-align: center;
+}
+.types-comics {
+}
+.types-comics__title {
+}
+.historical-comics {
+	background-color: darkgreen;
+}
+.historical-comics__title {
+}
+.historical-comics__content {
+}
+.historical-comics__text {
+}
+.fantastic-comics {
+}
+.fantastic-comics__title {
+}
+.fantastic-comics__content {
+}
+.fantastic-comics__text {
+	overflow: scroll;	
+	margin: 100px;
+	background-color: chartreuse;
+	max-height: 150px;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+	font-size: 20px;
+}
+.russians-comics {
+}
+.russians-comics__title {
+}
+.russians-comics__content {
+}
+.russians-comics__text {
+	overflow: auto;
+	max-height: 200px;
+	margin: 90px;
+	background-color: violet;
+}
+.notes {
+}
+.notes__title {
+}
+.notes__content {
+}
+.notes__list {
+	background-color: yellowgreen;
+	margin: 100px 400px;
+	padding-right: 15px;
+	padding-left: 15px;
+	min-width: 230px;
+	text-align: center;
+}
+
+.columns {
+	padding-top: 100px;
+	display: inline-block;
+	max-width: 200px;
+	min-width: 200px;
+	padding-right: 15px;
+	line-height: 100%;
+	color: rgb(42, 5, 66);
+	margin:100px auto;
+	background-color: tomato;
+}
+.literature {
+	background-color: cornflowerblue;
+	color: rgba(0,0,0,0.6);
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+.literature__title {
+}
+.literature__content {
+}
+.literature__list {
+}
+.literature__list1 {
+	text-shadow: 2px 2px 3px rgba(247, 13, 13, 0.76);
+}
+.literature__list2 {
+	color: darkgreen;
+	text-shadow: 2px 2px 3px rgba(71, 4, 255, 0.829);
+}
+.links {
+	width: 1000px;
+	margin: 0 auto;
+}
+.links__title {
+}
+.links__content {
+}
+.links__list {
+	background-color: grey;
+}
+.img {
+	text-align: center;
+}
+
+
+
+
+
+.block{
+	width: 100%;
+	display: none;
+}
+
+.block1 {
+	background: black;
+	width: 200px;
+	display: inline-block;
+}
+
+.block2 {
+	background: red;
+	width: 200px;
+	display: inline-block;
+}
